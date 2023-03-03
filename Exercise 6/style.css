@@ -1,0 +1,115 @@
+body{
+    background: aqua;
+}
+
+h2{
+    font-size: 25px;
+}
+
+.container {
+    width: 600px;
+    height: 400px;
+    background-color: #eee9e3;
+    border: 2px solid #0000CD;
+    box-shadow: 5px 5px 5px #888888;
+    position: relative;
+    margin: 50px auto;
+}
+
+.titlebar {
+    height: 30px;
+    background: rgb(0,191,255);
+    background: radial-gradient(circle, rgba(0,191,255,1) 0%, rgba(65,105,225,1) 92%);
+
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    
+    padding-top: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.line{
+    height: 10px;
+    background: #ffffff;
+    padding-top: 5px;
+    position: absolute;
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.buttons{
+    position: absolute; 
+    top: 5px; 
+    left: 5px;
+}
+
+.button {
+    display: inline-block;
+    padding: 28px 5px;
+    margin: 0 5px;
+
+    text-decoration: underline;
+    color: blue !important;
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: 30px;
+    height: 280px;
+
+    /* border: 2px solid red; */
+}
+
+.info{
+    display: flex;
+    flex-direction: row;
+
+    /* border: 2px solid #0000CD; */
+    padding: 0;
+    height: 50px;
+
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+input{
+    height: 50%;
+    width: 200px;
+    margin-top: 15px;
+    border: 1px solid #000;
+    border-radius: 2px;
+}
+
+#name{
+    margin-left: 34px;
+}
+
+#phone{
+    margin-left: 16px;
+}
+
+#cellphone{
+    margin-left: 25px;
+}
+
+button{
+    margin-top: 10px;
+    width: 100px;
+
+    text-align: center;
+
+    border: 1px solid #000;
+    border-radius: 3px;
+}
